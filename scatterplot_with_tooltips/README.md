@@ -1,5 +1,4 @@
-# misc
-miscellaneous scripts
+## Create a html file with a scatterplot produced in R with tooltips for each dot in your image  
 
 ## 1. Create a scatterplot in R
 ## 2. then run the tthtml function with a file name

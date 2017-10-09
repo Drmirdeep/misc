@@ -10,6 +10,7 @@ use warnings;
 ## output d significant digits
 sub r{
 	my ($n,$d)=@_;
+	if($n =~ /[a-zA-Z]/){return $n;}
 	return ((int($n*(10**$d)))/(10**$d));
 }
 

@@ -28,7 +28,7 @@ plot(x,y)
 
 ## call this before def.off()
 
-tthtml(fname)
+tthtml(fname,x,y)
 
 dev.off()
 

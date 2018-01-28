@@ -26,7 +26,7 @@ png(paste(fname,".png",sep=""),900,900)
 
 plot(x,y)
 
-## call this before def.off()
+## call tthtml before dev.off()
 
 tthtml(fname,x,y)
 
